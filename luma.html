@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMA AI</title>
+   
+   <style>
+    .video{
+       
+        position: relative;
+        width: 100vw;
+        height: 130vh;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    
+    }
+    .search{
+        position: absolute;
+        left: 35%;
+        width: 30%;
+        height: 7.5%;
+        top: 15%;
+        border-radius: 20px; 
+        background-color:white;     
+        font-size:x-large;  
+        text-align: center; 
+        text-shadow: 10px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+    }
+
+    
+    
+   </style>
+    <div> 
+<body style="background-color: white;">
+    <video autoplay muted loop class="video">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h1 style="position: absolute; top: 0%; left: 0%; color: white;">
+     LUMA AI:
+  </h1>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+     <input type="search" name="q" placeholder="Search"  class="search">
+    </form>
+    </div>
+</body>
+</head>
+
+</html>
